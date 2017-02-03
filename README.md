@@ -1,8 +1,8 @@
 # packaging
 
-This is the packaging repository for the KERN suite. If you want to get
-a piece of radio astronomy packaged up or updated please open an issue in
-the issue tracker:
+This is the packaging repository for the KERN suite.
+
+If you are missing a package or are experiencing problems open a issue:
 
 https://github.com/kernsuite/packaging/issues
 
