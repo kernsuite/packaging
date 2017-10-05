@@ -5,7 +5,8 @@
 #
 # package dependencies: sudo devscripts git git-buildpackage equivs
 
-BASE=git@github.com:eduvpn-debian/
+BASE=git@github.com:kernsuite-debian/
+PACKAGES=`cat packages | grep -v ^#`
 
 if [ ! -d "build" ]; then
     mkdir build;
@@ -13,7 +14,7 @@ fi
 
 pushd build
 
-for i in `cat ../packages`; do
+for i in ${PACKAGES}; do
     if [ ! -f "$i.build" ]; then
         if [ ! -d "$i" ]; then
             git clone ${BASE}$i
