@@ -5,8 +5,7 @@
 #
 # package dependencies: sudo devscripts git git-buildpackage equivs
 
-BASE=git@github.com:kernsuite-debian/
-PACKAGES=`cat packages | grep -v ^#`
+. settings.sh
 
 if [ ! -d "build" ]; then
     mkdir build;
