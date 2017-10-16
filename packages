@@ -33,13 +33,12 @@ obit
 oskar
 owlcat
 # parseltongue - xmlto: command not found
-presto
+# presto - error: Unmet build dependencies: libpng16-dev
 psrcat
-psrchive
+# psrchive - Build conflicts: libgsl-dev
 purify
 purr
 pymoresane
-pyqwt5
 python-casacore
 pyxis
 rfimasker
@@ -50,7 +49,7 @@ sigproc
 sigpyproc
 simfast21
 simms
-singularity-container
+#singularity-container
 sopt
 sourcery
 spdlog
@@ -62,4 +61,4 @@ tirific
 tkp
 tmv
 transitions
-wsclean
+#wsclean - /vault-tina/gijs/packaging/build/wsclean/tests/testradeccoord.cpp:2:41: fatal error: boost/test/data/test_case.hpp: No such file or directory
