@@ -1,3 +1,4 @@
 # these are packages that are also in debian
 casacore https://anonscm.debian.org/git/debian-astro/packages/casacore.git
 spdlog https://anonscm.debian.org/git/debian-med/spdlog.git
+pyvo https://anonscm.debian.org/git/debian-astro/packages/pyvo.git
