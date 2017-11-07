@@ -3,31 +3,27 @@
 # this script will clone all package repositories and build them
 # it will install required dependencies during the run, so it requires sudo access
 #
-# package dependencies: sudo devscripts git git-buildpackage equivs
+# package dependencies: sudo devscripts git git-buildpackage equivs apt-utils
 
 . settings.sh
 
-if [ ! -d "build" ]; then
-    mkdir build;
+if [ ! -d "${BUILD}" ]; then
+    mkdir -p ${BUILD};
 fi
 
-pushd build
+pushd ${BUILD}
 
 for i in ${PACKAGES}; do
     if [ ! -f "$i.build" ]; then
         if [ ! -d "$i" ]; then
             git clone ${BASE}$i
         fi
-        sudo apt --fix-broken install
         pushd $i
         dh_clean
         git pull
-        sudo mk-build-deps -i || true
-        sudo apt --fix-broken install
-        rm -f *-build-deps_*_all.deb 
-        dh_clean
-        gbp buildpackage --git-ignore-new -us -uc
+        BUILDER=pbuilder gbp buildpackage --git-pbuilder --git-ignore-new
         popd
         touch $i.build
+        apt-ftparchive packages . > Packages
     fi
 done

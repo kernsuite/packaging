@@ -1,4 +1,7 @@
 # these are packages that are also in debian
 casacore https://anonscm.debian.org/git/debian-astro/packages/casacore.git
+python-casacore https://anonscm.debian.org/git/debian-astro/packages/python-casacore.git
+wsclean https://anonscm.debian.org/git/debian-astro/packages/wsclean.git
 spdlog https://anonscm.debian.org/git/debian-med/spdlog.git
 pyvo https://anonscm.debian.org/git/debian-astro/packages/pyvo.git
+aoflagger https://anonscm.debian.org/git/debian-astro/packages/aoflagger.git
