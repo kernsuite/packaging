@@ -18,21 +18,24 @@ cassbeam
 chgcentre
 drive-casa
 dysco
-galsim
+tmv
 karma
-katdal
-katpoint
 katversion
+katpoint
+katdal
 kittens
 makems
 meqtrees-cattery
 meqtrees-timba
+cub
 montblanc
 msutils
 obit
 oskar
 owlcat
 psrcat
+spdlog
+sopt
 purify
 purr
 pymoresane
@@ -41,29 +44,27 @@ rfimasker
 rpfits
 sagecal
 scatterbrane
+tempo2
 sigproc
 sigpyproc
 simfast21
 simms
-sopt
 sourcery
-spdlog
 stimela
 tempo
-tempo2
 tigger
 tirific
 tkp
-tmv
 transitions
-# dspsr - undefined reference to symbol '_ZNSo9_M_insertIdEERSoT_@@GLIBCXX_3.4.9'
-# parseltongue - xmlto: command not found
-# presto - error: Unmet build dependencies: libpng16-dev
+python-keepalive
+python-typing
+cwltool
+psrchive
+dspsr
+parseltongue
+presto
+multinest
+singularity-container
+casalite
+# galsim somehow can't find tmv
 # mt-imager -  error: ‘memcpy’ was not declared in this scope
-# multinest - Error copying file
-# "/vault-tina/gijs/packaging/build/multinest/obj-x86_64-linux-gnu/src/kmeans_clstr.mod"
-# to "/vault-tina/gijs/packaging/build/multinest/modules/".
-# psrchive - Build conflicts: libgsl-dev
-#singularity-container
-# cub # where does this come from?
-#casalite 
