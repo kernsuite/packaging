@@ -6,8 +6,8 @@
 # read pbuilderrc.5 document for notes on specific options.
 MIRRORSITE=http://za.archive.ubuntu.com/ubuntu/
 DISTRIBUTION=xenial
-OTHERMIRROR="deb [trusted=yes] file:///vault-tina/gijs/packaging/build ./"
-BINDMOUNTS="/vault-tina/gijs/packaging/build"
+OTHERMIRROR="deb [trusted=yes] file:///vault-tina/gijs/packaging/kern-3 ./"
+BINDMOUNTS="/vault-tina/gijs/packaging/kern-3"
 HOOKDIR="/vault-tina/gijs/packaging/hook"
 COMPONENTS="main restricted universe multiverse"
 EXTRAPACKAGES="apt-utils debdelta"

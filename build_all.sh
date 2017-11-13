@@ -18,12 +18,22 @@ for i in ${PACKAGES}; do
         if [ ! -d "$i" ]; then
             git clone ${BASE}$i
         fi
+
         pushd $i
         dh_clean
         git pull
-        BUILDER=pbuilder gbp buildpackage --git-pbuilder --git-ignore-new
+
+        BUILDER=pbuilder gbp buildpackage \
+            --git-pbuilder \
+            --git-ignore-new \
+            --git-pbuilder-options="--buildresult ${RESULTS} \
+             --configfile ${ROOT}/pbuilderrc"
+
         popd
         touch $i.build
+
+        pushd ${RESULTS}
         apt-ftparchive packages . > Packages
+        popd
     fi
 done
