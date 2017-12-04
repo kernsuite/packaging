@@ -11,6 +11,7 @@ losoto
 pyvo
 lsmtool
 prefactor
+factor
 21cmfast
 aips
 attrdict
@@ -66,5 +67,6 @@ presto
 multinest
 singularity-container
 casalite
-# galsim somehow can't find tmv
+galsim
+cubical
 # mt-imager -  error: ‘memcpy’ was not declared in this scope
