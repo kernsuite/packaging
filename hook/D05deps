@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARCHIVE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/../build
+ARCHIVE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/../repo
 
 pushd ${ARCHIVE}
 apt-ftparchive packages . > Packages

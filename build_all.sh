@@ -3,7 +3,13 @@
 # this script will clone all package repositories and build them
 # it will install required dependencies during the run, so it requires sudo access
 #
-# package dependencies: sudo devscripts git git-buildpackage equivs apt-utils
+# package dependencies: sudo devscripts git git-buildpackage equivs apt-utils debhelper
+#
+# also you first need to setup the pbuilder chroot environment:
+#
+# $ sudo pbuilder create --configfile pbuilderrc
+#
+#
 
 . settings.sh
 
