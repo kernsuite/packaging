@@ -12,4 +12,4 @@ export DEB_BUILD_OPTIONS="parallel=15"
 export ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 export BUILD=${ROOT}/build
 
-export RESULTS=${ROOT}/packages
+export RESULTS=${ROOT}/repo
