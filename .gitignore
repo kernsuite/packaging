@@ -1,2 +1,10 @@
 build/
 repo/Packages
+repo/*.deb
+repo/*.ddeb
+
+repo/*.debian.tar.xz
+repo/*.dsc
+repo/*_amd64.buildinfo
+repo/*_amd64.changes
+repo/*.orig.tar.gz
