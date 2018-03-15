@@ -1,7 +1,7 @@
-casacore-data
-casacore
-aoflagger
-python-casacore
+#casacore-data
+#casacore
+#aoflagger
+#python-casacore
 casasynthesis
 casarest
 lofar
