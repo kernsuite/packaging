@@ -2,10 +2,30 @@
 #casacore
 #aoflagger
 #python-casacore
+#wsclean
 casasynthesis
 casarest
-lofar
-wsclean
+ppgplot
+difmap
+sched
+bitshuffle
+bl-dspsr
+bl-sigproc
+blimpy
+blitz
+ctypesgen
+dedisp
+dedisp-ajameson
+gbt-seti
+guppi-daq
+heimdall-astro
+peasoup
+psrdada
+pyfftw
+pyslalib
+sharedarray
+shm
+turbo-seti
 rmextract
 losoto
 pyvo
@@ -53,6 +73,7 @@ simms
 sourcery
 stimela
 tempo
+tigger-lsm
 tigger
 tirific
 tkp
@@ -70,3 +91,4 @@ casalite
 galsim
 cubical
 # mt-imager -  error: ‘memcpy’ was not declared in this scope
+lofar
