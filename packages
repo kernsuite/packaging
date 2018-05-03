@@ -11,18 +11,20 @@ sched
 bitshuffle
 tempo2
 psrchive
-bl-dspsr
+#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
 bl-sigproc
 blimpy
 blitz
 ctypesgen
 dedisp
 dedisp-ajameson
+tempo
+presto
 gbt-seti
 guppi-daq
+psrdada
 heimdall-astro
 peasoup
-psrdada
 pyfftw
 pyslalib
 sharedarray
@@ -73,7 +75,6 @@ simfast21
 simms
 sourcery
 stimela
-tempo
 tigger-lsm
 tigger
 tirific
@@ -84,7 +85,6 @@ python-typing
 cwltool
 dspsr
 parseltongue
-presto
 multinest
 singularity-container
 casalite
@@ -92,3 +92,5 @@ galsim
 cubical
 # mt-imager -  error: ‘memcpy’ was not declared in this scope
 lofar
+polygon2
+ddfacet
