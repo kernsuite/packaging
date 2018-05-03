@@ -7,7 +7,7 @@
 
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-source ${ROOT}/settings.sh
+source ${KERN_ROOT}/settings.sh
 
 dh_clean
 git pull
@@ -15,7 +15,7 @@ git checkout upstream
 git checkout master
 git clean -f -d
 gbp import-orig --uscan
-gbp dch -D ${DIST}
+gbp dch -D ${KERN_DIST}
 git commit debian/changelog -m "new upstream release"
 gbp buildpackage --git-tag
 git push --all

@@ -2,9 +2,9 @@
 
 . settings.sh
 
-pushd ${BUILD}/casacore-data
+pushd ${KERN_BUILD}/casacore-data
 gbp import-orig --uscan --no-interactive
-gbp dch -D ${DIST}
+gbp dch -D ${KERN_DIST}
 git commit debian/changelog "new upstream release"
 gpb buildpackage --git-ignore-new --git-tag
 git push --all

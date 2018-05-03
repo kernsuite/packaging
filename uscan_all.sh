@@ -4,11 +4,11 @@
 # Will only print out information.
 
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-source ${ROOT}/settings.sh
+source ${KERN_ROOT}/settings.sh
 
 pushd build
 
-for i in $PACKAGES; do
+for i in $KERN_PACKAGES; do
     pushd $i
     uscan || true
     popd

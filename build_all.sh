@@ -13,32 +13,34 @@
 
 . settings.sh
 
-if [ ! -d "${BUILD}" ]; then
-    mkdir -p ${BUILD};
+if [ ! -d "${KERN_BUILD}" ]; then
+    mkdir -p ${KERN_BUILD};
 fi
 
-pushd ${BUILD}
+pushd ${KERN_BUILD}
 
-for i in ${PACKAGES}; do
+for i in ${KERN_PACKAGES}; do
     if [ ! -f "$i.build" ]; then
         if [ ! -d "$i" ]; then
-            git clone ${BASE}$i
+            git clone ${KERN_BASE}$i
         fi
 
         pushd $i
         dh_clean
         git pull
 
+        echo RESULTS=${KERN_RESULTS}
+        echo ROOT=${KERN_ROOT}
         BUILDER=pbuilder gbp buildpackage \
             --git-pbuilder \
             --git-ignore-new \
-            --git-pbuilder-options="--buildresult ${RESULTS} \
-             --configfile ${ROOT}/pbuilderrc"
+            --git-pbuilder-options="--buildresult ${KERN_RESULTS} \
+             --configfile ${KERN_ROOT}/pbuilderrc"
 
         popd
         touch $i.build
 
-        pushd ${RESULTS}
+        pushd ${KERN_RESULTS}
         apt-ftparchive packages . > Packages
         popd
     fi
