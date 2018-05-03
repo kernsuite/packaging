@@ -9,6 +9,8 @@ ppgplot
 difmap
 sched
 bitshuffle
+tempo2
+psrchive
 bl-dspsr
 bl-sigproc
 blimpy
@@ -65,7 +67,6 @@ rfimasker
 rpfits
 sagecal
 scatterbrane
-tempo2
 sigproc
 sigpyproc
 simfast21
@@ -81,7 +82,6 @@ transitions
 python-keepalive
 python-typing
 cwltool
-psrchive
 dspsr
 parseltongue
 presto
