@@ -3,6 +3,7 @@
 #aoflagger
 #python-casacore
 #wsclean
+#pyvo
 casasynthesis
 casarest
 ppgplot
@@ -25,6 +26,8 @@ guppi-daq
 psrdada
 heimdall-astro
 peasoup
+pymonetdb
+gsm
 pyfftw
 pyslalib
 sharedarray
@@ -32,8 +35,7 @@ shm
 turbo-seti
 rmextract
 losoto
-pyvo
-lsmtool
+#lsmtool  https://github.com/kernsuite/packaging/issues/102
 prefactor
 factor
 21cmfast
@@ -94,3 +96,4 @@ cubical
 lofar
 polygon2
 ddfacet
+
