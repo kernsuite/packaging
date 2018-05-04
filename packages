@@ -4,6 +4,8 @@
 #python-casacore
 #wsclean
 #pyvo
+#python-keepalive
+#singularity-container
 casasynthesis
 casarest
 ppgplot
@@ -12,7 +14,6 @@ sched
 bitshuffle
 tempo2
 psrchive
-#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
 bl-sigproc
 blimpy
 blitz
@@ -49,16 +50,15 @@ katversion
 katpoint
 katdal
 kittens
-#makems https://github.com/kernsuite/packaging/issues/103
 meqtrees-cattery
 meqtrees-timba
 cub
 montblanc
 msutils
 obit
-oskar
 owlcat
 psrcat
+polygon2
 spdlog
 sopt
 purify
@@ -80,20 +80,19 @@ tigger
 tirific
 tkp
 transitions
-python-keepalive
 python-typing
 cwltool
-dspsr
 parseltongue
 multinest
-singularity-container
-casalite
 galsim
 cubical
-# mt-imager -  error: ‘memcpy’ was not declared in this scope
-lofar
-prefactor
-factor
-polygon2
-ddfacet
-
+#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
+#makems https://github.com/kernsuite/packaging/issues/103
+#oskar https://github.com/kernsuite/packaging/issues/104
+#dspsr https://github.com/kernsuite/packaging/issues/107
+#mt-imager  https://github.com/kernsuite/packaging/issues/108
+#lofar https://github.com/kernsuite/packaging/issues/109
+#prefactor depends on lofar
+#factor depends on prefactor
+#ddfacet https://github.com/kernsuite/packaging/issues/57
+casalite
