@@ -35,23 +35,21 @@ shm
 turbo-seti
 rmextract
 losoto
-#lsmtool  https://github.com/kernsuite/packaging/issues/102
-prefactor
-factor
+dysco
+lsmtool
 21cmfast
 aips
 attrdict
 cassbeam
 chgcentre
 drive-casa
-dysco
 tmv
 karma
 katversion
 katpoint
 katdal
 kittens
-makems
+#makems https://github.com/kernsuite/packaging/issues/103
 meqtrees-cattery
 meqtrees-timba
 cub
@@ -94,6 +92,8 @@ galsim
 cubical
 # mt-imager -  error: ‘memcpy’ was not declared in this scope
 lofar
+prefactor
+factor
 polygon2
 ddfacet
 
