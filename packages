@@ -5,7 +5,8 @@
 #wsclean
 #pyvo
 #python-keepalive
-#singularity-container
+#spdlog
+singularity-container
 casasynthesis
 casarest
 ppgplot
@@ -59,7 +60,6 @@ obit
 owlcat
 psrcat
 polygon2
-spdlog
 sopt
 purify
 purr
@@ -91,8 +91,9 @@ cubical
 #oskar https://github.com/kernsuite/packaging/issues/104
 #dspsr https://github.com/kernsuite/packaging/issues/107
 #mt-imager  https://github.com/kernsuite/packaging/issues/108
-#lofar https://github.com/kernsuite/packaging/issues/109
-#prefactor depends on lofar
-#factor depends on prefactor
-#ddfacet https://github.com/kernsuite/packaging/issues/57
+lofar
+prefactor
+factor
+#ddfacet  https://github.com/kernsuite/packaging/issues/57
+#ddfacet
 casalite
