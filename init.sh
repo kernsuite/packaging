@@ -9,5 +9,5 @@ pushd repo
 apt-ftparchive packages . > Packages
 popd
 
-sudo pbuilder create --distribution ${KERN_DIST} --override-config ./pbuilderrc
+sudo pbuilder create --distribution ${KERN_DIST} --override-config --configfile ./pbuilderrc
 
