@@ -1,3 +1,6 @@
+#
+# packages that ended up in debian/ubuntu:
+#
 #casacore-data
 #casacore
 #aoflagger
@@ -6,6 +9,20 @@
 #pyvo
 #python-keepalive
 #spdlog
+#sopt
+#purify
+#cwltool
+#
+## packages with issues:
+#
+#cubical https://github.com/kernsuite/packaging/issues/111
+#montblanc https://github.com/kernsuite/packaging/issues/89
+#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
+#makems https://github.com/kernsuite/packaging/issues/103
+#oskar https://github.com/kernsuite/packaging/issues/104
+#dspsr https://github.com/kernsuite/packaging/issues/107
+#mt-imager  https://github.com/kernsuite/packaging/issues/108
+#
 singularity-container
 casasynthesis
 casarest
@@ -54,14 +71,11 @@ kittens
 meqtrees-cattery
 meqtrees-timba
 cub
-montblanc
 msutils
 obit
 owlcat
 psrcat
 polygon2
-sopt
-purify
 purr
 pymoresane
 pyxis
@@ -81,19 +95,11 @@ tirific
 tkp
 transitions
 python-typing
-cwltool
 parseltongue
 multinest
 galsim
-cubical
-#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
-#makems https://github.com/kernsuite/packaging/issues/103
-#oskar https://github.com/kernsuite/packaging/issues/104
-#dspsr https://github.com/kernsuite/packaging/issues/107
-#mt-imager  https://github.com/kernsuite/packaging/issues/108
 lofar
 prefactor
 factor
-#ddfacet  https://github.com/kernsuite/packaging/issues/57
-#ddfacet
+ddfacet
 casalite
