@@ -6,6 +6,7 @@
 #pyvo
 #python-keepalive
 #spdlog
+pybsdf
 singularity-container
 casasynthesis
 casarest
