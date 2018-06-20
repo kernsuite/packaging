@@ -12,5 +12,4 @@ export DEBFULLNAME="KERN packaging"
 
 export KERN_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 export KERN_BUILD=${KERN_ROOT}/build
-
 export KERN_RESULTS=${KERN_ROOT}/repo

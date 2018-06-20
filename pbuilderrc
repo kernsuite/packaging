@@ -1,6 +1,7 @@
+# change HERE to the true path, which is system specific
 #HERE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 HERE=/packaging/kern/packaging
-MIRRORSITE=http://za.archive.ubuntu.com/ubuntu/
+MIRRORSITE=http://nl.archive.ubuntu.com/ubuntu/
 DISTRIBUTION=bionic
 OTHERMIRROR="deb [trusted=yes] file://${HERE}/repo ./"
 BINDMOUNTS="${HERE}/repo"
