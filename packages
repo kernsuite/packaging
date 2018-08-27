@@ -17,10 +17,6 @@
 #
 #cubical https://github.com/kernsuite/packaging/issues/111
 #montblanc https://github.com/kernsuite/packaging/issues/89
-#bl-dspsr https://github.com/UCBerkeleySETI/bl_packaging/issues/10
-#makems https://github.com/kernsuite/packaging/issues/103
-#oskar https://github.com/kernsuite/packaging/issues/104
-#dspsr https://github.com/kernsuite/packaging/issues/107
 #mt-imager  https://github.com/kernsuite/packaging/issues/108
 #
 singularity-container
@@ -37,7 +33,8 @@ pybsdf
 blimpy
 blitz
 ctypesgen
-dedisp
+dedisp-flexi
+dedisp-ewanbarr
 dedisp-ajameson
 tempo
 presto
@@ -104,3 +101,22 @@ prefactor
 factor
 ddfacet
 casalite
+kapteyn
+ymw16
+psrfits-utils
+coast-guard
+dadafits
+dadafilterbank
+amber
+snr
+integration
+dedispersion
+astrodata
+libisaopencl
+libisautils
+bl-dspsr
+bifrost
+python-graphviz
+dspsr
+oskar
+ringbuffer-sc4
