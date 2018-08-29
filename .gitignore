@@ -1,4 +1,8 @@
 build/
+sorted
+updated
+upstream/
+uscan_log
 repo/Packages
 repo/*.deb
 repo/*.ddeb

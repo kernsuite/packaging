@@ -16,8 +16,5 @@ for i in $KERN_PACKAGES; do
     git checkout upstream
     git checkout master
     uscan --dehs 1>> ${KERN_ROOT}/uscan_log || true
-    #gbp import-orig --uscan
-    #gbp dch -D bionic --commit
-    #gbp buildpackage --git-tag
     popd
 done

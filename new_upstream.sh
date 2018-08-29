@@ -15,8 +15,10 @@ git checkout upstream
 git checkout master
 git clean -f -d
 gbp import-orig --uscan
-gbp dch -D ${KERN_DIST}
-git commit debian/changelog -m "new upstream release"
-gbp buildpackage --git-tag
-git push --all
-git push --tags
+gbp dch -D ${KERN_DIST} --commit
+BUILDER=pbuilder gbp buildpackage \
+    --git-pbuilder \
+    --git-pbuilder-options="--configfile ${KERN_ROOT}/pbuilderrc --buildresult ${KERN_ROOT}/repo" \
+    --git-tag
+git push --all --follow-tags
+debuild -S -sa

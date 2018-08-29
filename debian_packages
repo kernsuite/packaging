@@ -1,11 +1,17 @@
 # these are packages that are also in debian
-casacore https://anonscm.debian.org/git/debian-astro/packages/casacore.git
-python-casacore https://anonscm.debian.org/git/debian-astro/packages/python-casacore.git
-wsclean https://anonscm.debian.org/git/debian-astro/packages/wsclean.git
-spdlog https://anonscm.debian.org/git/debian-med/spdlog.git
-pyvo https://anonscm.debian.org/git/debian-astro/packages/pyvo.git
-aoflagger https://anonscm.debian.org/git/debian-astro/packages/aoflagger.git
-python-keepalive https://anonscm.debian.org/python-modules/packages/python-keepalive.git
-python-typing https://anonscm.debian.org/collab-maint/python-typing.git
-sopt https://anonscm.debian.org/git/debian-astro/packages/sopt.git
+casacore https://salsa.debian.org/debian-astro-team/casacore
+python-casacore https://salsa.debian.org/debian-astro-team/python-casacore
+wsclean https://salsa.debian.org/debian-astro-team/wsclean
+pyvo https://salsa.debian.org/debian-astro-team/pyvo
+sopt https://salsa.debian.org/debian-astro-team/sopt
+aoflagger https://salsa.debian.org/debian-astro-team/aoflagger
+cassbeam https://salsa.debian.org/debian-astro-team/cassbeam
+spdlog https://salsa.debian.org/med-team/spdlog
+python-keepalive https://salsa.debian.org/python-team/modules/python-keepalive
+python-typing https://salsa.debian.org/debian/python-typing
+singularity-container https://salsa.debian.org/hpc-team/singularity-container
+unittest-xml-reporting svn://svn.debian.org/svn/python-modules/packages/unittext-xml-reporting
+python-graphviz https://salsa.debian.org/python-team/modules/python-graphviz.git
+purify https://salsa.debian.org/debian-astro-team/purify
+cwltool https://salsa.debian.org/med-team/cwltool
 
