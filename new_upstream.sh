@@ -5,7 +5,7 @@
 # Run from the debian package source folder.
 # package dependencies: git-buildpackage and devscripts.
 
-ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+KERN_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 source ${KERN_ROOT}/settings.sh
 
@@ -22,3 +22,7 @@ BUILDER=pbuilder gbp buildpackage \
     --git-tag
 git push --all --follow-tags
 debuild -S -sa
+PACKAGE=`head -n1 debian/changelog | grep -Po "^[\w-]+"`
+VERSION=`head -n1 debian/changelog | grep -Po "\(.+\)"`
+VERSION=${VERSION:1:-1}
+dput ppa:kernsuite/kern-dev ../${PACKAGE}_${VERSION}_source.changes
