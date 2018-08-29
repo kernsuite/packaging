@@ -6,6 +6,7 @@
 #aoflagger
 #python-casacore
 #wsclean
+#cassbeam
 #pyvo
 #python-keepalive
 #spdlog
@@ -29,7 +30,7 @@ bitshuffle
 tempo2
 psrchive
 bl-sigproc
-pybsdf
+pybdsf
 blimpy
 blitz
 ctypesgen
@@ -57,7 +58,6 @@ lsmtool
 21cmfast
 aips
 attrdict
-cassbeam
 chgcentre
 drive-casa
 tmv
@@ -96,6 +96,7 @@ python-typing
 parseltongue
 multinest
 galsim
+unittest-xml-reporting
 lofar
 prefactor
 factor
@@ -120,3 +121,5 @@ python-graphviz
 dspsr
 oskar
 ringbuffer-sc4
+apsynsim
+pygsm
