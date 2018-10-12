@@ -3,9 +3,7 @@
 #
 #casacore-data
 #casacore
-#aoflagger
 #python-casacore
-#wsclean
 #cassbeam
 #pyvo
 #python-keepalive
@@ -20,6 +18,8 @@
 #montblanc https://github.com/kernsuite/packaging/issues/89
 #mt-imager  https://github.com/kernsuite/packaging/issues/108
 #
+aoflagger
+wsclean
 singularity-container
 casasynthesis
 casarest
@@ -124,3 +124,8 @@ ringbuffer-sc4
 apsynsim
 pygsm
 eigency
+dp3
+idg-lib
+idg-api
+spead2
+miriad
