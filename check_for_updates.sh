@@ -15,6 +15,7 @@ for i in $KERN_PACKAGES; do
     pushd $i
     git checkout upstream
     git checkout master
+    git pull
     uscan --dehs 1>> ${KERN_ROOT}/uscan_log || true
     popd
 done
