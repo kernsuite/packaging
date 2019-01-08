@@ -13,3 +13,5 @@ repo/*_amd64.buildinfo
 repo/*_amd64.changes
 repo/*.orig.tar.gz
 repo/*.orig.tar.xz
+repo/*.orig.tar.bz2
+source/
