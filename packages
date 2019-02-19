@@ -17,6 +17,7 @@
 #casasynthesis https://github.com/kernsuite/packaging/issues/180
 #bitshuffle  https://github.com/kernsuite/packaging/issues/182
 #oskar https://github.com/kernsuite/packaging/issues/186
+#galsim https://github.com/kernsuite/packaging/issues/136
 #
 ## packages that can't beautomatically updated:
 #
@@ -102,7 +103,6 @@ python-typing
 parseltongue
 multinest
 eigency
-galsim
 unittest-xml-reporting
 prefactor
 factor
