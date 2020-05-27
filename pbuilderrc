@@ -1,10 +1,10 @@
 # change HERE to the true path, which is system specific
 #HERE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-HERE=/packaging/kern/packaging
+HERE=/scratch/packaging/kern/packaging
 MIRRORSITE=http://nl.archive.ubuntu.com/ubuntu/
 DISTRIBUTION=bionic
 OTHERMIRROR="deb [trusted=yes] file://${HERE}/repo ./"
 BINDMOUNTS="${HERE}/repo"
 HOOKDIR="${HERE}/hook"
 COMPONENTS="main restricted universe multiverse"
-EXTRAPACKAGES="apt-utils debdelta"
+EXTRAPACKAGES="apt-utils debdelta gpg gpgconf gpg-agent"
