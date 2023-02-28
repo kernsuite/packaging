@@ -8,7 +8,7 @@
 #sopt
 #purify
 #cwltool
-#
+#pybind11
 #
 ## packages that can't beautomatically updated:
 #
@@ -90,7 +90,6 @@ pyxis
 sagecal
 simms
 stimela
-pybind11
 spead2
 
 # done until here
