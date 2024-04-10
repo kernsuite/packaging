@@ -9,8 +9,9 @@
 #purify
 #cwltool
 #pybind11
-#
-## packages that can't beautomatically updated:
+#blitz
+#pyfftw
+## packages that can't be automatically updated:
 #
 #casalite
 #
@@ -70,7 +71,6 @@ chgcentre
 pybdsf
 pyslalib
 #pymonetdb
-pyfftw
 rmextract
 losoto
 dysco
