@@ -1,5 +1,5 @@
 #
-# packages that ended up in debian/ubuntu:
+## packages that ended up in debian/ubuntu:
 #
 #cassbeam
 #pyvo
@@ -9,8 +9,11 @@
 #purify
 #cwltool
 #pybind11
+#blitz
+#pyfftw
+#attrdict
 #
-## packages that can't beautomatically updated:
+## packages that can't be automatically updated:
 #
 #casalite
 #
@@ -70,13 +73,11 @@ chgcentre
 pybdsf
 pyslalib
 #pymonetdb
-pyfftw
 rmextract
 losoto
 dysco
 lsmtool
 21cmfast
-attrdict
 #drive-casa
 tmv
 karma
@@ -91,9 +92,6 @@ sagecal
 simms
 stimela
 spead2
-
-# done until here
-## packages below are to be updated
 meqtrees-cattery
 meqtrees-timba
 miriad
